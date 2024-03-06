@@ -1,0 +1,321 @@
+
+body{
+    width: 100%;
+    margin: 0 0 100px 0;
+    padding-bottom: 40px;
+    background-color: #f0f4ea;
+}
+
+
+.left-header{
+    background-color: #0A5B5E;
+    border-bottom-right-radius: 17rem;
+    width:12rem;
+    height: 22rem;
+    position: relative;
+    z-index: 0;
+}
+
+.logo-a{
+    position: absolute;
+    left: 5rem;
+    top: 3.75rem;
+    width: 2rem;
+    
+}
+
+.logo-b{
+    position: absolute;
+    left: 3.5rem;
+    top: 2rem;
+    height: 4rem;
+}
+
+.nav {
+    list-style: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding around the list */
+    margin: 0;
+     /* Remove default margin around the list */
+     position: absolute;
+     top: 2.5rem;
+     right: 35rem;
+     /* border: 2px solid black; */
+     
+  }
+  
+  .nav li {
+    display: inline-block; /* Make list items inline elements */
+    margin-right: 20px;
+     /* Add margin between list items */
+    
+  }
+  
+  .nav li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  .nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #2a563e; /* Set link color */
+    padding: 26px 10px;
+    font-weight: 500;
+    
+  }
+
+  #header-line{
+    display: inline-block;
+    position: absolute;
+    width: 19rem;
+    height: 2px;
+    
+    top: 26px;
+    background-color:#0A5B5E ;
+    vertical-align: middle; 
+    margin-right: 1px;
+   
+  }
+ .flowerp{
+    position: relative;
+ }
+  .gardenhome{
+    display: inline-block;
+    position: absolute;
+    width:10rem ;
+    top:16px ;
+    left: 47rem;
+  }
+
+  .mid-container{
+    position: absolute;
+    top: 6rem;
+    left: 25rem;
+    width: 60%;
+
+  }
+
+  .read-more-button {
+    background-color: #0A5B5E;
+    border: 2px solid #0A5B5E;
+    font-family: 'times';
+    color: white;
+    padding: 4px 17px;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 4px;
+  }
+
+
+  .shop-cards {
+    display: block;
+    position: absolute; 
+    top: 10rem;
+    left: 61rem;
+    
+  }
+  
+  
+  
+  .shop-card {
+    width: 200px;
+     
+    margin: 10px 0; 
+    text-align: center; 
+    background-color: #f2f2f2; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .shop-card img {
+    width: 40%; 
+    height: 30%; 
+  }
+  
+  .shop-card p {
+    margin: 10px 0 5px 0px; 
+     color: white; 
+     padding-top: 5px;
+     font-size: larger;
+  }
+
+  .shop-card .product-types{
+    color: #2a563e;
+    background-color: #d6ddd6;
+    font-family: 'sans serif';
+    font-weight: 550;
+  }
+  
+  .footer-content{
+    
+    width:69%;
+    
+    position: absolute;
+    top:29rem;
+    bottom: 10px;
+    left: 5em;
+    padding-bottom: 126px;
+    background-color:#c3cec6;
+    opacity: 80%;
+  }
+
+  .footer-heading{
+    padding: 10px 10px 70px 30px;
+    margin-top: -10px ;
+   
+  
+  }
+
+  .flowerplace{
+    background-color: #ced9d7;
+    width: 15rem;
+    position: absolute;
+    left: 80px;
+    top: 130px;
+    text-align: left;
+    z-index: 1;
+    height: 19.7rem;
+    float: left;
+    border-top-right-radius: 60%;
+    border-top-left-radius: 60%;
+
+  }
+
+  .container{
+    position: relative;
+  } 
+
+
+  .footer-spacer {
+    height: 100px; /* Adjust the height as needed */
+    background-color: transparent; /* Optional: set background color */
+    position: absolute;
+    width: 100%;
+    bottom: -80px;
+  }
+
+  .rightfooter{
+    top: 32rem;
+    right: 90px;
+    position: absolute;
+  }
+
+  .rightimage{
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 20%;
+  }
+  .rightimagetwo{
+    position: absolute;
+    top: 50px;
+    right: 7rem;
+    width: 11%;
+    height: 60%;
+    
+  } 
+  /* #919f98 0.200 */
+
+  .rightimagethree{
+    position: absolute;
+    top: 50px;
+    right: 4rem;
+    width: 10px;
+    height: 10px;
+
+  }
+  .rightimagefour{
+    position: absolute;
+    top: 50px;
+    right: 5rem;
+    width: 10px;
+    height: 10px;
+  }
+
+  .rightimagefive{
+    position: absolute;
+    top: 34px;
+    right: 4.8rem;
+    width: 10px;
+    height: 10px;}
+
+
+    .rightimagesix{
+      position: absolute;
+      top: 79px;
+      right: 4.5rem;
+      width: 10px;
+      height: 10px;}
+
+
+      .rightimageseven{
+        position: absolute;
+        top: 75px;
+        right: 3rem;
+        width: 10px;
+        height: 10px;}
+
+        .rightimageeight{
+          position: absolute;
+          top: 65px;
+          right: 4rem;
+          width: 10px;
+          height: 10px;}
+
+
+.rightimagenine{
+            position: absolute;
+            top: 40px;
+            right: 1rem;
+            width: 10px;
+            height: 10px;}
+
+
+.rightimageten{
+  position: absolute;
+  top: 30px;
+  right: 2.5rem;
+  width: 10px;
+  height: 10px;
+}
+.rightimageeleven{
+  position: absolute;
+  top: 40px;
+  right: 3.5rem;
+  width: 10px;
+  height: 10px;
+}
+
+
+
+    .pots{
+      position: relative;
+      z-index: 1;
+    }
+
+    .potsimage1{
+      position: absolute;
+      top: 22rem;
+       z-index: 2;
+      left: 23rem;
+      width: 9.75rem;
+      height: 13rem;
+    }
+    
+    .potsimage2{
+      position: absolute;
+      top: 22rem;
+       z-index: 2;
+      left: 35rem;
+      width: 9.75rem;
+      height: 13rem;
+    }
+
+
+    .potsimage3{
+      position: absolute;
+      top: 22rem;
+       z-index: 2;
+      left: 47rem;
+      width: 9.75rem;
+      height: 13rem;
+    }
+
